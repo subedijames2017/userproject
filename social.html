@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>social</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	a{
+  box-sizing: border-box;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  float: left;
+  font-size: 1rem;
+  line-height: 50px;
+  color: white;
+  transition: all 250ms ease-in-out;
+}
+
+a:hover{
+  margin-top: -5px;
+  border-bottom: 4px solid black;
+}
+
+.fa{
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+#linkedin{
+  background-color: #1D87BE;
+}
+#linkedin:hover{
+  background-color: #136F9E;
+}
+
+#google-plus{
+	background-color: #B30000;
+}
+#google-plus:hover{
+	background-color: #990000;
+}
+
+#codepen{
+	background-color: #285550;
+}
+#codepen:hover{
+	background-color: #1F3F3B;
+}
+
+#stack-overflow{
+	background-color: #CF6300;
+}
+#stack-overflow:hover{
+	background-color: #AD5300;
+}
+
+#github{
+	background-color: #0F4F8A;
+}
+#github:hover{
+	background-color: #0B3A66;
+}
+
+
+/* Irrelevant Page Layout */
+
+html{
+	font-size: 62.5%
+}
+
+html,body{
+	height: 100%;
+}
+
+body {
+	background-color: #f1f1f1;
+	text-align: center;
+	font-size: 0;
+}
+
+body:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+#holder {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 10px;
+	font-size: 1rem;
+}
+
+h1 {
+  margin: 25px 0;
+  font-size: 42px;
+  font-size: 4.2rem;
+  line-height: 42px;
+  line-height: 4.2rem;
+  text-shadow: 0px 2px 0 #FFF,
+				-1px -1px 0 #FFF,
+				1px -1px 0 #FFF,
+				-1px 1px 0 #FFF,
+				1px 1px 0 #FFF,
+				-2px 3px #616161,
+				2px 3px #616161;
+}
+
+#divide {
+	margin: 25px 50px;
+	border-top: 1px solid black;
+}
+
+#social{
+	display: inline-block;
+}
+	</style>
+</head>
+<body>
+	<div id="holder">
+  <h1>Social Media Icons by User Name</h1>
+  <div id="divide"></div>
+  <div id="social">
+    <a id="linkedin" href="https://uk.linkedin.com/in/billymathews/" title="Billy Mathews on Linkedin" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+    <a id="google-plus" href="https://plus.google.com/u/2/103873732315795845819/posts" title="Billy Mathews on Google+" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a>
+    <a id="codepen" href="https://codepen.io/BillyM" title="Billy Mathews on CodePen" target="_blank"><i class="fa fa-codepen fa-3x"></i></a>
+    <a id="stack-overflow" href="http://stackoverflow.com/users/1879895/billy" title="Billy Mathews on StackOverflow" target="_blank"><i class="fa fa-stack-overflow fa-3x"></i></a>
+    <a id="github" href="https://github.com/Billy-" title="Billy Mathews on GitHub" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+  </div>
+</div>
+</body>
+</html>
